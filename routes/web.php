@@ -9,6 +9,7 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\VolunteerController;
 use App\Http\Controllers\PartnerSchoolController;
+use App\Http\Controllers\PostController;
 
 // Homepage
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -42,3 +43,7 @@ Route::post('/volunteer', [VolunteerController::class, 'store'])->name('voluntee
 // Partner School Application
 Route::get('/partner', [PartnerSchoolController::class, 'index'])->name('partner.index');
 Route::post('/partner', [PartnerSchoolController::class, 'store'])->name('partner.store');
+
+// News & Press Releases
+Route::get('/news', [PostController::class, 'index'])->name('posts.index');
+Route::get('/news/{slug}', [PostController::class, 'show'])->name('posts.show');
