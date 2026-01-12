@@ -16,10 +16,12 @@ class ProfileController extends Controller
         // Team members data
         $team = [
             [
-                'name' => 'Dr. Danang Mursita',
+                'name' => 'Dr. Danang Teguh Qoyyimi',
                 'role' => 'Founder & Project Lead',
                 'institution' => 'Departemen Matematika FMIPA UGM',
                 'bio' => 'Dosen Matematika UGM yang menginisiasi santriSTEM untuk menjembatani pendidikan STEM dan pesantren.',
+                'email' => 'qoyyimi@ugm.ac.id',
+                'location' => 'https://maps.app.goo.gl/hTtPN8GPIcA3dOI23',
                 'image' => null
             ],
             [
