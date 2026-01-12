@@ -18,6 +18,11 @@ return new class extends Migration
             $table->string('contact_person');
             $table->string('phone');
             $table->string('email');
+            $table->string('school_type')->nullable();
+            $table->integer('student_count')->nullable();
+            $table->integer('teacher_count')->nullable();
+            $table->text('programs_interest')->nullable();
+            $table->text('message')->nullable();
             $table->date('partnership_date')->nullable();
             $table->string('logo')->nullable();
             $table->boolean('is_active')->default(true);

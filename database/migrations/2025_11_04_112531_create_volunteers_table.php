@@ -19,8 +19,11 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('university');
             $table->string('major');
+            $table->integer('semester')->nullable();
             $table->string('pesantren_background')->nullable();
+            $table->string('pesantren_name')->nullable();
             $table->text('skills')->nullable();
+            $table->text('motivation')->nullable();
             $table->text('availability')->nullable();
             $table->text('bio')->nullable();
             $table->string('photo')->nullable();

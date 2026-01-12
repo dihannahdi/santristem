@@ -122,19 +122,19 @@
 
                     <!-- School Name -->
                     <div>
-                        <label for="school_name" class="block text-sm font-semibold text-gray-700 mb-2">
+                        <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">
                             Nama Sekolah/Pesantren <span class="text-red-500">*</span>
                         </label>
                         <input 
                             type="text" 
-                            id="school_name" 
-                            name="school_name" 
-                            value="{{ old('school_name') }}"
+                            id="name" 
+                            name="name" 
+                            value="{{ old('name') }}"
                             placeholder="Contoh: MA Al-Hikmah Yogyakarta"
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent @error('school_name') border-red-500 @enderror"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent @error('name') border-red-500 @enderror"
                             required
                         >
-                        @error('school_name')
+                        @error('name')
                             <p class="mt-1 text-sm text-red-500">{{ $message }}</p>
                         @enderror
                     </div>
