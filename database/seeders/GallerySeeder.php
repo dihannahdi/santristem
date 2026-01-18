@@ -212,24 +212,24 @@ class GallerySeeder extends Seeder
             ]);
         }
 
-        // 2025 PKM Pesantren Photos
+        // 2025 PKM Pesantren Photos (WebP optimized)
         $baseDir2025 = 'PKM Pesantren/';
         $photos2025 = [
-            ['file' => 'DSC08739.JPG', 'title' => 'Kegiatan PKM Pesantren 2025', 'description' => 'Dokumentasi kegiatan Program Kemitraan Masyarakat dengan Pesantren tahun 2025', 'featured' => true],
-            ['file' => 'DSC08740.JPG', 'title' => 'Sesi Pembelajaran', 'description' => 'Peserta santri mengikuti sesi pembelajaran dengan antusias', 'featured' => true],
-            ['file' => 'DSC08741.JPG', 'title' => 'Interaksi Pengajar dan Santri', 'description' => 'Momen interaksi pengajar dengan para santri peserta program', 'featured' => true],
-            ['file' => 'DSC08742.JPG', 'title' => 'Aktivitas Belajar', 'description' => 'Suasana belajar yang kondusif di lingkungan pesantren', 'featured' => false],
-            ['file' => 'DSC08744.JPG', 'title' => 'Diskusi Kelompok', 'description' => 'Santri berdiskusi dalam kelompok kecil', 'featured' => false],
-            ['file' => 'DSC08747.JPG', 'title' => 'Praktik Pembelajaran', 'description' => 'Pelaksanaan praktik pembelajaran interaktif', 'featured' => false],
-            ['file' => 'DSC08749.JPG', 'title' => 'Presentasi Materi', 'description' => 'Penyampaian materi oleh fasilitator', 'featured' => false],
-            ['file' => 'DSC08750.JPG', 'title' => 'Kegiatan Workshop', 'description' => 'Workshop peningkatan kemampuan STEM santri', 'featured' => false],
-            ['file' => 'DSC08751.JPG', 'title' => 'Santri Berkonsentrasi', 'description' => 'Para santri fokus mengikuti materi pembelajaran', 'featured' => false],
-            ['file' => 'DSC08752.JPG', 'title' => 'Sesi Tanya Jawab', 'description' => 'Santri aktif bertanya dan berdiskusi', 'featured' => false],
-            ['file' => 'DSC08753.JPG', 'title' => 'Pendampingan Belajar', 'description' => 'Pendampingan intensif untuk santri', 'featured' => false],
-            ['file' => 'DSC08755.JPG', 'title' => 'Aktivitas Kelompok', 'description' => 'Kerja sama dalam menyelesaikan tugas kelompok', 'featured' => false],
-            ['file' => 'DSC08758.JPG', 'title' => 'Suasana Kelas', 'description' => 'Suasana kelas yang penuh semangat belajar', 'featured' => false],
-            ['file' => 'DSC08760.JPG', 'title' => 'Metode Pembelajaran Aktif', 'description' => 'Penerapan metode pembelajaran yang aktif dan menyenangkan', 'featured' => false],
-            ['file' => 'DSC08761.JPG', 'title' => 'Interaksi Peserta', 'description' => 'Interaksi positif antar peserta program', 'featured' => false],
+            ['file' => 'DSC08739.webp', 'title' => 'Kegiatan PKM Pesantren 2025', 'description' => 'Dokumentasi kegiatan Program Kemitraan Masyarakat dengan Pesantren tahun 2025', 'featured' => true],
+            ['file' => 'DSC08740.webp', 'title' => 'Sesi Pembelajaran', 'description' => 'Peserta santri mengikuti sesi pembelajaran dengan antusias', 'featured' => true],
+            ['file' => 'DSC08741.webp', 'title' => 'Interaksi Pengajar dan Santri', 'description' => 'Momen interaksi pengajar dengan para santri peserta program', 'featured' => true],
+            ['file' => 'DSC08742.webp', 'title' => 'Aktivitas Belajar', 'description' => 'Suasana belajar yang kondusif di lingkungan pesantren', 'featured' => false],
+            ['file' => 'DSC08744.webp', 'title' => 'Diskusi Kelompok', 'description' => 'Santri berdiskusi dalam kelompok kecil', 'featured' => false],
+            ['file' => 'DSC08747.webp', 'title' => 'Praktik Pembelajaran', 'description' => 'Pelaksanaan praktik pembelajaran interaktif', 'featured' => false],
+            ['file' => 'DSC08749.webp', 'title' => 'Presentasi Materi', 'description' => 'Penyampaian materi oleh fasilitator', 'featured' => false],
+            ['file' => 'DSC08750.webp', 'title' => 'Kegiatan Workshop', 'description' => 'Workshop peningkatan kemampuan STEM santri', 'featured' => false],
+            ['file' => 'DSC08751.webp', 'title' => 'Santri Berkonsentrasi', 'description' => 'Para santri fokus mengikuti materi pembelajaran', 'featured' => false],
+            ['file' => 'DSC08752.webp', 'title' => 'Sesi Tanya Jawab', 'description' => 'Santri aktif bertanya dan berdiskusi', 'featured' => false],
+            ['file' => 'DSC08753.webp', 'title' => 'Pendampingan Belajar', 'description' => 'Pendampingan intensif untuk santri', 'featured' => false],
+            ['file' => 'DSC08755.webp', 'title' => 'Aktivitas Kelompok', 'description' => 'Kerja sama dalam menyelesaikan tugas kelompok', 'featured' => false],
+            ['file' => 'DSC08758.webp', 'title' => 'Suasana Kelas', 'description' => 'Suasana kelas yang penuh semangat belajar', 'featured' => false],
+            ['file' => 'DSC08760.webp', 'title' => 'Metode Pembelajaran Aktif', 'description' => 'Penerapan metode pembelajaran yang aktif dan menyenangkan', 'featured' => false],
+            ['file' => 'DSC08761.webp', 'title' => 'Interaksi Peserta', 'description' => 'Interaksi positif antar peserta program', 'featured' => false],
         ];
 
         foreach ($photos2025 as $index => $photo) {
